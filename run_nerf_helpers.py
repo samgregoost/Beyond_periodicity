@@ -102,10 +102,8 @@ class NeRF(nn.Module):
         h = input_pts
         for i, l in enumerate(self.pts_linears):
             h = self.pts_linears[i](h)
-            if True: #i < 5:
-                h = self.gaussian(h)
-            else:
-                h = F.relu(h)
+            h = self.gaussian(h)
+
             if i in self.skips:
                 h = torch.cat([input_pts, h], -1)
 
