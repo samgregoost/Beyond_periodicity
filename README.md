@@ -1,7 +1,10 @@
 # Beyond Periodicity: Towards a Unifying Framework for Activations in Coordinate-MLPs
+This repository contains the code for "Beyond Periodicity: Towards a Unifying Framework for Activations in Coordinate-MLPs".
 
-This repository contains the code for training a NeRF with Gaussian activations as proposed in "Beyond Periodicity: Towards a Unifying Framework for Activations in Coordinate-MLPs".
+##Colab demo
+An easy-to-get-started Colab demo for experimenting with novel activation functions proposed in the paper (coming soon)
 
+##Training a NeRF
 This code heavily relies on the awesome NeRF implementation provided [here](https://github.com/yenchenlin/nerf-pytorch).
 
 ## Installation
