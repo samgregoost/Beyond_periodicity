@@ -2,9 +2,6 @@
 
 This repository contains the code for training a NeRF with Gaussian activations as proposed in "Beyond Periodicity: Towards a Unifying Framework for Activations in Coordinate-MLPs".
 
-![](https://user-images.githubusercontent.com/7057863/78472232-cf374a00-7769-11ea-8871-0bc710951839.gif)
-![](https://user-images.githubusercontent.com/7057863/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif)
-
 This code heavily relies on the awesome NeRF implementation provided [here](https://github.com/yenchenlin/nerf-pytorch).
 
 ## Installation
