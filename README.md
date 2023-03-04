@@ -53,7 +53,7 @@ To train the network on other datasets, download the data [here](https://drive.g
 
 ## Training
 
-To train a Gaussian activated NeRF on the lego scene:
+To train a Gaussian activated NeRF without positional encoding on the lego scene:
 ```
 python run_nerf.py --config configs/lego.txt
 ```
@@ -82,7 +82,7 @@ python run_nerf.py --config configs/{DATASET}.txt --render_only
 replace `{DATASET}` with `trex` | `horns` | `flower` | `fortress` | `lego` | etc.
 
   
-<img src='imgs/pipeline.jpg'/>
+[//]: # (<img src='imgs/pipeline.jpg'/>)
 
 
 ## Citation
