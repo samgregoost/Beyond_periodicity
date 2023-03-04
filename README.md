@@ -10,8 +10,8 @@ This code heavily relies on the awesome NeRF implementation provided [here](http
 ## Installation
 
 ```
-git clone https://github.com/yenchenlin/nerf-pytorch.git
-cd nerf-pytorch
+git clone https://github.com/samgregoost/Beyond_periodicity.git
+cd Beyond_periodicity
 pip install -r requirements.txt
 ```
 
